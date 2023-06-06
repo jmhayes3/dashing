@@ -18,5 +18,5 @@ app.layout = html.Div([
 ])
 
 if __name__ == "__main__":
-    # Default port is 8050 (http://127.0.0.1:8050)
+    # Run local server on port 8050 (http://127.0.0.1:8050)
     app.run_server(debug=True)
