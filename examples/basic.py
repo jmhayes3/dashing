@@ -12,7 +12,6 @@ app.layout = html.Div([
     dcc.Graph(id="graph-content")
 ])
 
-
 @callback(
     Output("graph-content", "figure"),
     Input("dropdown-selection", "value")
